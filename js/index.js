@@ -39,9 +39,9 @@ const siteContent = {
 
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
-logo.setAttribute('src', siteContent["nav"]["img-src"])
+logo.setAttribute('src', siteContent["nav"]["img-src"]);
 
-// NAV Bar
+// Nav-bar
 
 const navBar = document.querySelectorAll('a');
 navBar.forEach((element, num) => {
@@ -49,9 +49,9 @@ navBar.forEach((element, num) => {
   element.style.color = 'green';
 });
 
-let dom = document.querySelector('.cta-text h1');
+const dom = document.querySelector('.cta h1');
 dom.textContent = siteContent.cta.h1;
 
-let button = document.querySelector('.cta-text button');
-button.textContent = siteContent.cta.button
+const button = document.querySelector('.cta button');
+button.textContent = siteContent.cta.button;
 
