@@ -48,3 +48,10 @@ navBar.forEach((element, num) => {
   element.textContent = siteContent['nav'][`nav-item-${num + 1}`];
   element.style.color = 'green';
 });
+
+let dom = document.querySelector('.cta-text h1');
+dom.textContent = siteContent.cta.h1;
+
+let button = document.querySelector('.cta-text button');
+button.textContent = siteContent.cta.button
+
