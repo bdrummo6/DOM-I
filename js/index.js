@@ -66,7 +66,6 @@ navItem8.style.color = 'green';
 const nav2 = document.querySelector('nav');
 nav2.appendChild(navItem8);
 
-
 const dom = document.querySelector('.cta-text h1');
 dom.textContent = siteContent.cta.h1;
 
@@ -103,3 +102,16 @@ address[2].textContent = siteContent["contact"]["email"];
 
 const copyright = document.querySelector("footer");
 copyright.textContent = siteContent["footer"]["copyright"];
+
+// Stretch styling
+document.querySelector('nav').style.border = "2px solid #20B2AA";
+document.querySelector('nav').style.padding = "5px";
+
+document.querySelector('h1').style.color = "#20B2AA";
+document.querySelector('h1').style.fontSize = "3.0rem";
+
+const h4s = document.querySelectorAll('h4');
+h4s.forEach((element, num) => {
+    element.style.fontSize = "1.3rem";
+    element.style.color = '#20B2AA';
+});
