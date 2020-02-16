@@ -104,7 +104,7 @@ const copyright = document.querySelector("footer");
 copyright.textContent = siteContent["footer"]["copyright"];
 
 // Stretch styling
-document.querySelector('nav').style.border = "2px solid #20B2AA";
+/*document.querySelector('nav').style.border = "2px solid #20B2AA";
 document.querySelector('nav').style.padding = "5px";
 
 document.querySelector('h1').style.color = "#20B2AA";
@@ -114,4 +114,4 @@ const h4s = document.querySelectorAll('h4');
 h4s.forEach((element, num) => {
     element.style.fontSize = "1.3rem";
     element.style.color = '#20B2AA';
-});
+});*/
