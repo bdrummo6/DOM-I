@@ -51,21 +51,19 @@ navBar.forEach((element, num) => {
 });
 
 // Prepend new nav-bar item
-let navItem1 = document.createElement('a');
-let navText1= document.createTextNode('Hello');
-navItem1.prepend(navText1);
+const navItem1 = document.createElement('a');
+navItem1.textContent = 'Hello';
 navItem1.style.color = 'green';
 
-let nav1 = document.querySelector('nav');
+const nav1 = document.querySelector('nav');
 nav1.prepend(navItem1);
 
 // Append new nav-bar item
-let navItem8 = document.createElement('a');
-let navText8 = document.createTextNode('Bye-Bye');
-navItem8.appendChild(navText8);
+const navItem8 = document.createElement('a');
+navItem8.textContent = 'Bye-Bye';
 navItem8.style.color = 'green';
 
-let nav2 = document.querySelector('nav');
+const nav2 = document.querySelector('nav');
 nav2.appendChild(navItem8);
 
 
