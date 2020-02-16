@@ -66,15 +66,20 @@ navItem8.style.color = 'green';
 const nav2 = document.querySelector('nav');
 nav2.appendChild(navItem8);
 
+
+// h1 'DOM IS AWESOME'
 const dom = document.querySelector('.cta-text h1');
 dom.textContent = siteContent.cta.h1;
 
+// 'Get Started' button
 const button = document.querySelector('.cta-text button');
 button.textContent = siteContent.cta.button;
 
+// Big circular main image next to the h1
 const topImg = document.querySelector('#cta-img');
 topImg.src = siteContent.cta["img-src"];
 
+// The h4 headers for each set of text content
 const mainContent = document.querySelectorAll('.text-content h4');
 mainContent[0].textContent = siteContent["main-content"]["features-h4"];
 mainContent[1].textContent = siteContent["main-content"]["about-h4"];
@@ -82,6 +87,7 @@ mainContent[2].textContent = siteContent["main-content"]["services-h4"];
 mainContent[3].textContent = siteContent["main-content"]["product-h4"];
 mainContent[4].textContent = siteContent["main-content"]["vision-h4"];
 
+// The text content that flows below its corresponding header
 const para = document.querySelectorAll('.text-content p');
 para[0].textContent = siteContent["main-content"]["features-content"];
 para[1].textContent = siteContent["main-content"]["about-content"];
@@ -89,17 +95,21 @@ para[2].textContent = siteContent["main-content"]["services-content"];
 para[3].textContent = siteContent["main-content"]["product-content"];
 para[4].textContent = siteContent["main-content"]["vision-content"]
 
+// The image that intersects the first two data sections and the last three
 const middleImg = document.querySelector('#middle-img');
 middleImg.src = siteContent["main-content"]["middle-img-src"];
 
+// The h4 for the contact section at the bottom of the page
 const contactH4 = document.querySelector(".contact h4");
 contactH4.textContent = siteContent["contact"]["contact-h4"];
 
+// The section that includes that includes all of the contact information
 const address = document.querySelectorAll('.contact p');
 address[0].textContent = siteContent["contact"]["address"];
 address[1].textContent = siteContent["contact"]["phone"];
 address[2].textContent = siteContent["contact"]["email"];
 
+// The section for the copyright info, which is in the footer
 const copyright = document.querySelector("footer");
 copyright.textContent = siteContent["footer"]["copyright"];
 
