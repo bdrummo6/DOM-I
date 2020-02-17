@@ -97,7 +97,7 @@ para[0].textContent = siteContent["main-content"]["features-content"];
 para[1].textContent = siteContent["main-content"]["about-content"];
 para[2].textContent = siteContent["main-content"]["services-content"];
 para[3].textContent = siteContent["main-content"]["product-content"];
-para[4].textContent = siteContent["main-content"]["vision-content"]
+para[4].textContent = siteContent["main-content"]["vision-content"];
 
 // The image that intersects the first two data sections and the last three
 const middleImg = document.querySelector('#middle-img');
